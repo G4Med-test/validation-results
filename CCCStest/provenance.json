@@ -1,0 +1,13 @@
+{
+  "test_repo": {
+    "url": "https://github.com/G4Med-test/CCCStest",
+    "sha": "d26692157187e0f117921f2c75fd2682ac80de41"
+  },
+  "container_repo": {
+    "url": "https://github.com/G4Med-test/geant4-alma9",
+    "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
+    "geant4_commit": "62f62ecae238a7c304c52af4affbe70795475590"
+  },
+  "image": "oras://ghcr.io/g4med-test/cccstest:d26692157187e0f117921f2c75fd2682ac80de41",
+  "geant4_version": "11.3.2"
+}
