@@ -51,10 +51,11 @@ labels existed.
 `ci-workflows`' [`run-validation-padova.yml`](https://github.com/G4Med-test/ci-workflows/blob/main/.github/workflows/run-validation-padova.yml)
 runs the `publish-results` job after a successful validation: it replaces the
 test's directory wholesale and opens a pull request here (branch
-`results/<test-name>`, squash auto-merge). A second run of the same test
+results/<test-name>), merged with squash as soon as it's mergeable. A second run of the same test
 before the first PR merges updates that same PR instead of opening a
 competing one; the workflow also serializes same-test runs so two of them
 never race to merge conflicting content.
+
 
 Nothing here is meant to be edited by hand — changes should only ever arrive
 through that PR flow.
