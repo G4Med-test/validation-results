@@ -58,12 +58,3 @@ never race to merge conflicting content.
 
 Nothing here is meant to be edited by hand — changes should only ever arrive
 through that PR flow.
-
-## Requirements
-
-- Settings → General → Pull Requests: **Allow squash merging** and **Allow
-  auto-merge** must both be on, or the publish step fails even with a valid
-  token.
-- The publishing workflow authenticates with the `VALIDATION_RESULTS_TOKEN`
-  organization secret (fine-grained PAT, scoped to this repo only, with
-  Contents: Read and write and Pull requests: Read and write).
