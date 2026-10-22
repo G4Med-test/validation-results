@@ -1,13 +1,13 @@
 {
   "test_repo": {
     "url": "https://github.com/G4Med-test/LowEFrag",
-    "sha": "9768544f7440159bf3d8e043dbe2479ee725b055"
+    "sha": "48355868cae981fd992f065f8cdc41655a112dd1"
   },
   "container_repo": {
     "url": "https://github.com/G4Med-test/geant4-alma9",
     "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
     "geant4_commit": "2ee379e6843e55b9c6bbb835d2a2b03cc998fef0"
   },
-  "image": "oras://ghcr.io/g4med-test/lowefrag:9768544f7440159bf3d8e043dbe2479ee725b055",
+  "image": "oras://ghcr.io/g4med-test/lowefrag:48355868cae981fd992f065f8cdc41655a112dd1",
   "geant4_version": "11.4.3"
 }
