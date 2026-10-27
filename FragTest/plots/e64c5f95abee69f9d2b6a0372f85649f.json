@@ -1,0 +1,152 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.3.2",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "energy distribution (scaled to exp. yield)",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "Z",
+        "values": "5"
+      },
+      {
+        "names": "thickness",
+        "values": "347 mm"
+      },
+      {
+        "names": "angle",
+        "values": "0.0"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 24,
+    "title": "energy distribution",
+    "xAxisName": "Energy, MeV",
+    "yAxisName": "(N/N_{0})(#Omega*MeV)^{-1}",
+    "xValues": [
+      528.4,
+      550.5,
+      561.5,
+      583.5,
+      605.5,
+      627.5,
+      660.6,
+      682.6,
+      704.6,
+      737.6,
+      770.7,
+      803.7,
+      836.7,
+      880.7,
+      913.8,
+      957.8,
+      1012.9,
+      1056.9,
+      1111.9,
+      1178.0,
+      1244.1,
+      1310.1,
+      1387.2,
+      1475.2
+    ],
+    "yValues": [
+      0.0,
+      0.0,
+      0.0,
+      0.002927952534770259,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0019490153030240784,
+      0.0,
+      0.001951968356513506,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.0,
+      0.0,
+      0.0,
+      0.002927952534770259,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0019490153030240784,
+      0.0,
+      0.001951968356513506,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yStatErrorsMinus": [
+      0.0,
+      0.0,
+      0.0,
+      0.002927952534770259,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0019490153030240784,
+      0.0,
+      0.001951968356513506,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
