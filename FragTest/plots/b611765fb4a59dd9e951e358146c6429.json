@@ -1,0 +1,88 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.3.2",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "energy distribution (scaled to exp. yield)",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "Z",
+        "values": "5"
+      },
+      {
+        "names": "thickness",
+        "values": "159 mm"
+      },
+      {
+        "names": "angle",
+        "values": "3.0"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 8,
+    "title": "energy distribution",
+    "xAxisName": "Energy, MeV",
+    "yAxisName": "(N/N_{0})(#Omega*MeV)^{-1}",
+    "xValues": [
+      1980.0,
+      2156.0,
+      2343.0,
+      2563.0,
+      2827.0,
+      3135.0,
+      3509.0,
+      3960.0
+    ],
+    "yValues": [
+      2.80123870624714e-05,
+      5.432705369691423e-05,
+      0.0004118577989725525,
+      0.0018029790945663412,
+      0.002818477098285584,
+      0.0008530223673217098,
+      3.5855855439963394e-05,
+      0.0
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      1.980774884909584e-05,
+      2.7163526848457114e-05,
+      7.063302980370059e-05,
+      0.00013552020750029272,
+      0.00015586213968058887,
+      7.85270739855906e-05,
+      1.4638091686484457e-05,
+      0.0
+    ],
+    "yStatErrorsMinus": [
+      1.980774884909584e-05,
+      2.7163526848457114e-05,
+      7.063302980370059e-05,
+      0.00013552020750029272,
+      0.00015586213968058887,
+      7.85270739855906e-05,
+      1.4638091686484457e-05,
+      0.0
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
