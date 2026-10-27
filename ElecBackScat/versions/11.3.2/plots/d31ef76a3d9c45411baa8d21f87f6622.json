@@ -1,0 +1,82 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.3.2",
+    "model": "emstandard_opt0"
+  },
+  "testName": "ElecBackScat",
+  "metadata": {
+    "observableName": "Backscattered electron number coefficient",
+    "reaction": "reaction name",
+    "targetName": "Mo",
+    "beamParticle": "e-",
+    "beamEnergies": [
+      1.033,
+      0.521,
+      0.314,
+      0.109,
+      0.084,
+      0.058,
+      0.032
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "angle",
+        "values": 0.0
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 7,
+    "title": "Backscattered electron number coefficient",
+    "xAxisName": "E, MeV",
+    "yAxisName": "Backscattered electron number coefficient",
+    "xValues": [
+      1.033,
+      0.521,
+      0.314,
+      0.109,
+      0.084,
+      0.058,
+      0.032
+    ],
+    "yValues": [
+      0.31158,
+      0.35198,
+      0.36344,
+      0.37618,
+      0.3741,
+      0.37266,
+      0.37306
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.00207161,
+      0.00213602,
+      0.00215124,
+      0.00216642,
+      0.00216402,
+      0.00216233,
+      0.0021628
+    ],
+    "yStatErrorsMinus": [
+      0.00207161,
+      0.00213602,
+      0.00215124,
+      0.00216642,
+      0.00216402,
+      0.00216233,
+      0.0021628
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}

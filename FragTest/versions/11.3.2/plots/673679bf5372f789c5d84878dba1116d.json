@@ -1,0 +1,88 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.3.2",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "angular distribution",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "Z",
+        "values": "4"
+      },
+      {
+        "names": "thickness",
+        "values": "159 mm"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 9,
+    "title": "angular distribution",
+    "xAxisName": "angle, deg",
+    "yAxisName": "(N/N_{0})#Omega^{-1}",
+    "xValues": [
+      -1.0,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      3.0,
+      4.0,
+      6.0
+    ],
+    "yValues": [
+      1.6355055692703222,
+      1.9947931479923007,
+      1.581822202615569,
+      1.7427518361077203,
+      1.3853521972633627,
+      1.1195534235241553,
+      0.5677420640981536,
+      0.2683199618995821,
+      0.06714817354106295
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.1480717168705826,
+      0.3704237882096961,
+      0.20593570992380905,
+      0.15284944735203254,
+      0.11127416621794806,
+      0.08663364491861214,
+      0.05037896162468371,
+      0.029999083726380965,
+      0.012259523114570577
+    ],
+    "yStatErrorsMinus": [
+      0.1480717168705826,
+      0.3704237882096961,
+      0.20593570992380905,
+      0.15284944735203254,
+      0.11127416621794806,
+      0.08663364491861214,
+      0.05037896162468371,
+      0.029999083726380965,
+      0.012259523114570577
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}

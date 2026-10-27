@@ -1,0 +1,13 @@
+{
+  "test_repo": {
+    "url": "https://github.com/G4Med-test/Attenuation-ilantest",
+    "sha": "2ebbec953ab1b6c2432bd9c04afe91d4cf2d91e4"
+  },
+  "container_repo": {
+    "url": "https://github.com/G4Med-test/geant4-alma9",
+    "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
+    "geant4_commit": "62f62ecae238a7c304c52af4affbe70795475590"
+  },
+  "image": "oras://ghcr.io/g4med-test/attenuation-ilantest:2ebbec953ab1b6c2432bd9c04afe91d4cf2d91e4",
+  "geant4_version": "11.3.2"
+}

@@ -1,0 +1,47 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.3.2",
+    "model": "emstandard_opt0"
+  },
+  "testName": "fanoCavity",
+  "metadata": {
+    "observableName": "dose ratio (sim/theor)",
+    "reaction": "reaction name",
+    "targetName": "Water",
+    "beamParticle": "gamma",
+    "beamEnergies": [
+      1.25
+    ],
+    "secondaryParticle": "None",
+    "parameters": []
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 1,
+    "title": "dose ratio (sim/theor)",
+    "xAxisName": "dRoverRange",
+    "yAxisName": "dose ratio (sim/theory)",
+    "xValues": [
+      0.4
+    ],
+    "yValues": [
+      1.04202
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.00634
+    ],
+    "yStatErrorsMinus": [
+      0.00634
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
