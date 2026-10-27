@@ -1,0 +1,13 @@
+{
+  "test_repo": {
+    "url": "https://github.com/G4Med-test/FragTest",
+    "sha": "958a15a37b1ffa4e871b5efa3f5b983b6da74686"
+  },
+  "container_repo": {
+    "url": "https://github.com/G4Med-test/geant4-alma9",
+    "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
+    "geant4_commit": "62f62ecae238a7c304c52af4affbe70795475590"
+  },
+  "image": "oras://ghcr.io/g4med-test/fragtest:958a15a37b1ffa4e871b5efa3f5b983b6da74686",
+  "geant4_version": "11.3.2"
+}
