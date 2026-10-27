@@ -1,9 +1,9 @@
 # validation-results
 
 Portal JSON produced by the Geant4 validation pipeline, one directory per test
-repository. Each test's directory is overwritten in full by its own CI run —
-history lives in this repo's git log and in each merge commit's message, not
-in parallel per-run folders.
+repository. Each CI run of a test replaces its latest results and those of its
+Geant4 version; older runs live in this repo's git log and in each merge
+commit's message, not in parallel per-run folders.
 
 ## Layout
 
@@ -12,7 +12,19 @@ in parallel per-run folders.
   results.json        # all plots for this test, as one array (portal-facing)
   plots/<md5>.json     # same plots, one object per file (legacy import format)
   provenance.json      # where this run came from (see below)
+  versions/
+    <geant4-version>/  # e.g. 11.4.3: the latest results with that Geant4 version
+      results.json
+      plots/<md5>.json
+      provenance.json
 ```
+
+The top-level files are the latest run, whatever its Geant4 version.
+`versions/<geant4-version>/` keeps the latest run of each version, so that versions
+can be compared: ci-workflows'
+[`validation/compare.py`](https://github.com/G4Med-test/ci-workflows/blob/main/validation/compare.py),
+the release report and the dashboard read it. Results published before this layout
+have no `versions/` folder: it fills in as tests run again.
 
 `<test-name>` matches the name used in `ci-workflows`'
 [`tests.json`](https://github.com/G4Med-test/ci-workflows/blob/main/tests.json)
@@ -50,7 +62,7 @@ labels existed.
 
 `ci-workflows`' [`run-validation-padova.yml`](https://github.com/G4Med-test/ci-workflows/blob/main/.github/workflows/run-validation-padova.yml)
 runs the `publish-results` job after a successful validation: it replaces the
-test's directory wholesale and opens a pull request here (branch
+test's latest results and `versions/<geant4-version>/` and opens a pull request here (branch
 results/<test-name>), merged with squash as soon as it's mergeable. A second run of the same test
 before the first PR merges updates that same PR instead of opening a
 competing one; the workflow also serializes same-test runs so two of them
