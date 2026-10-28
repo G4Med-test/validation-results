@@ -1,13 +1,13 @@
 {
   "test_repo": {
     "url": "https://github.com/G4Med-test/brachy-ir",
-    "sha": "2176fd1afbe3e06981b222688915608fcba141fd"
+    "sha": "25d607e27313d42fe713566300e5a6a95e3de91e"
   },
   "container_repo": {
     "url": "https://github.com/G4Med-test/geant4-alma9",
     "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
     "geant4_commit": "62f62ecae238a7c304c52af4affbe70795475590"
   },
-  "image": "oras://ghcr.io/g4med-test/brachy-ir:2176fd1afbe3e06981b222688915608fcba141fd",
+  "image": "oras://ghcr.io/g4med-test/brachy-ir:25d607e27313d42fe713566300e5a6a95e3de91e",
   "geant4_version": "11.3.2"
 }
