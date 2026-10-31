@@ -1,0 +1,1247 @@
+[
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "track length",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "proton",
+      "beamEnergies": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 13,
+      "title": "Track length of proton in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "track length, nm",
+      "xValues": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        97.34868,
+        162.6496,
+        297.8168,
+        452.0384,
+        660.1873,
+        1096.55,
+        1714.924,
+        3085.997,
+        9016.445,
+        24569.41,
+        75182.93,
+        358357.2,
+        1213119.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.4412221664070154,
+        0.5647081603532926,
+        0.6830810675508434,
+        0.7896352782212811,
+        0.8206072580805023,
+        0.9612356429947863,
+        1.1920502894104763,
+        1.8261634873936123,
+        4.821878923556667,
+        13.150742745906028,
+        39.521482118475774,
+        366.75747836108263,
+        1216.493778431275
+      ],
+      "yStatErrorsMinus": [
+        0.4412221664070154,
+        0.5647081603532926,
+        0.6830810675508434,
+        0.7896352782212811,
+        0.8206072580805023,
+        0.9612356429947863,
+        1.1920502894104763,
+        1.8261634873936123,
+        4.821878923556667,
+        13.150742745906028,
+        39.521482118475774,
+        366.75747836108263,
+        1216.493778431275
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "ICRU",
+      "version": "11.3.2",
+      "model": "ICRU90 CSDA range"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "track length",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "proton",
+      "beamEnergies": [
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 7,
+      "title": "Track length of proton in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "track length, nm",
+      "xValues": [
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        1729.8867113063272,
+        3098.650939695366,
+        9093.06586243876,
+        25038.039806262874,
+        76640.50047198692,
+        366180.2820129436,
+        1241065.7160683996
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "projected range",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "proton",
+      "beamEnergies": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 13,
+      "title": "Projected range of proton in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "projected range, nm",
+      "xValues": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        30.84245,
+        59.92061,
+        140.0685,
+        252.9377,
+        430.7117,
+        830.0072,
+        1426.344,
+        2778.287,
+        8643.571,
+        24091.77,
+        74656.97,
+        357532.3,
+        1211706.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.7963197007393451,
+        1.2180986029528151,
+        2.0109353710772506,
+        2.771579203937874,
+        3.264065053493879,
+        4.249592048563015,
+        4.670171815087749,
+        5.6252998350096854,
+        9.361005952407039,
+        23.115781678737147,
+        44.172338741615214,
+        369.2780311933002,
+        1210.4183169673202
+      ],
+      "yStatErrorsMinus": [
+        0.7963197007393451,
+        1.2180986029528151,
+        2.0109353710772506,
+        2.771579203937874,
+        3.264065053493879,
+        4.249592048563015,
+        4.670171815087749,
+        5.6252998350096854,
+        9.361005952407039,
+        23.115781678737147,
+        44.172338741615214,
+        369.2780311933002,
+        1210.4183169673202
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "penetration",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "proton",
+      "beamEnergies": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 13,
+      "title": "Penetration of proton in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "penetration, nm",
+      "xValues": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        51.80163,
+        91.14257,
+        183.9135,
+        303.4993,
+        482.4938,
+        880.4408,
+        1470.371,
+        2817.921,
+        8692.86,
+        24184.56,
+        74740.15,
+        357689.2,
+        1212109.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.5124018742597455,
+        0.7989440749695188,
+        1.339419069157409,
+        1.884154600036844,
+        2.3314363228962742,
+        3.0903892858920057,
+        3.5337662282966598,
+        4.60613253019168,
+        7.48015909480273,
+        17.484862476325343,
+        40.68678143624781,
+        367.12177977474994,
+        1214.0853727345534
+      ],
+      "yStatErrorsMinus": [
+        0.5124018742597455,
+        0.7989440749695188,
+        1.339419069157409,
+        1.884154600036844,
+        2.3314363228962742,
+        3.0903892858920057,
+        3.5337662282966598,
+        4.60613253019168,
+        7.48015909480273,
+        17.484862476325343,
+        40.68678143624781,
+        367.12177977474994,
+        1214.0853727345534
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "track length",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "alpha",
+      "beamEnergies": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 13,
+      "title": "Track length of alpha in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "track length, nm",
+      "xValues": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        29.99456,
+        59.43704,
+        132.9996,
+        244.6319,
+        443.2495,
+        881.8396,
+        1391.914,
+        2101.707,
+        3655.072,
+        5827.654,
+        11098.41,
+        38013.55,
+        117412.8
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.3052061848195233,
+        0.48284975706993993,
+        0.8790199023358345,
+        1.3522006792320436,
+        1.7953802955107032,
+        2.273511934311672,
+        2.7385805203262508,
+        3.0785029166229645,
+        3.0824228760105097,
+        3.50785452514924,
+        3.9756028252530458,
+        22.484892555153557,
+        70.96580224530685
+      ],
+      "yStatErrorsMinus": [
+        0.3052061848195233,
+        0.48284975706993993,
+        0.8790199023358345,
+        1.3522006792320436,
+        1.7953802955107032,
+        2.273511934311672,
+        2.7385805203262508,
+        3.0785029166229645,
+        3.0824228760105097,
+        3.50785452514924,
+        3.9756028252530458,
+        22.484892555153557,
+        70.96580224530685
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "ICRU",
+      "version": "11.3.2",
+      "model": "ICRU90 CSDA range"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "track length",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "alpha",
+      "beamEnergies": [
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 5,
+      "title": "Track length of alpha in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "track length, nm",
+      "xValues": [
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        4146.8312708124595,
+        6389.240014478714,
+        11770.951360944842,
+        38525.01026139354,
+        114789.18932939725
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "projected range",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "alpha",
+      "beamEnergies": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 13,
+      "title": "Projected range of alpha in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "projected range, nm",
+      "xValues": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        13.068,
+        26.89628,
+        66.97572,
+        140.068,
+        279.2641,
+        633.1982,
+        1093.528,
+        1760.78,
+        3296.43,
+        5452.349,
+        10721.9,
+        37630.76,
+        117017.9
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.2948306885709577,
+        0.5536727600026029,
+        1.117978678637522,
+        1.8810656872183917,
+        2.9056164535250693,
+        4.8787777854960765,
+        6.000326991839695,
+        7.399565286355679,
+        7.730383801496534,
+        9.095646584831668,
+        8.631724640696666,
+        29.109443647903163,
+        73.89082015636312
+      ],
+      "yStatErrorsMinus": [
+        0.2948306885709577,
+        0.5536727600026029,
+        1.117978678637522,
+        1.8810656872183917,
+        2.9056164535250693,
+        4.8787777854960765,
+        6.000326991839695,
+        7.399565286355679,
+        7.730383801496534,
+        9.095646584831668,
+        8.631724640696666,
+        29.109443647903163,
+        73.89082015636312
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "penetration",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "alpha",
+      "beamEnergies": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 13,
+      "title": "Penetration of alpha in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "penetration, nm",
+      "xValues": [
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0,
+        10.0
+      ],
+      "yValues": [
+        19.64275,
+        38.77996,
+        88.77233,
+        172.8671,
+        330.8247,
+        705.8083,
+        1168.824,
+        1835.427,
+        3356.751,
+        5503.893,
+        10747.79,
+        37640.15,
+        117028.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.2513689768651355,
+        0.44104697622464206,
+        0.8984713884512963,
+        1.5173575870451896,
+        2.3359574312670173,
+        3.593941209892004,
+        4.758813620179929,
+        5.7468293277676175,
+        6.390248476449097,
+        7.3353520761883,
+        8.015437834339432,
+        28.923707909688897,
+        73.88028426532345
+      ],
+      "yStatErrorsMinus": [
+        0.2513689768651355,
+        0.44104697622464206,
+        0.8984713884512963,
+        1.5173575870451896,
+        2.3359574312670173,
+        3.593941209892004,
+        4.758813620179929,
+        5.7468293277676175,
+        6.390248476449097,
+        7.3353520761883,
+        8.015437834339432,
+        28.923707909688897,
+        73.88028426532345
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "track length",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        1.2e-05,
+        1.9999999999999998e-05,
+        4.9999999999999996e-05,
+        9.999999999999999e-05,
+        0.00019999999999999998,
+        0.0005,
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 16,
+      "title": "Track length of e- in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "track length, nm",
+      "xValues": [
+        1.2e-05,
+        1.9999999999999998e-05,
+        4.9999999999999996e-05,
+        9.999999999999999e-05,
+        0.00019999999999999998,
+        0.0005,
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "yValues": [
+        28.31565,
+        6.305149,
+        14.89926,
+        17.84954,
+        22.41786,
+        40.0838,
+        82.45096,
+        206.1929,
+        846.5578,
+        2746.393,
+        9039.936,
+        43894.48,
+        144437.8,
+        445601.0,
+        1728523.0,
+        4194896.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.5559401130849436,
+        0.24340829070620418,
+        0.5026598454720648,
+        0.5369111072648804,
+        0.538837250587689,
+        0.6118981974204533,
+        0.7950396107425088,
+        1.6893054861335473,
+        6.202798143587295,
+        18.700410386117465,
+        57.19507248783762,
+        247.7112019183953,
+        759.3090354602663,
+        2183.6200808604276,
+        7763.407467101672,
+        17092.05699448987
+      ],
+      "yStatErrorsMinus": [
+        0.5559401130849436,
+        0.24340829070620418,
+        0.5026598454720648,
+        0.5369111072648804,
+        0.538837250587689,
+        0.6118981974204533,
+        0.7950396107425088,
+        1.6893054861335473,
+        6.202798143587295,
+        18.700410386117465,
+        57.19507248783762,
+        247.7112019183953,
+        759.3090354602663,
+        2183.6200808604276,
+        7763.407467101672,
+        17092.05699448987
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "ICRU",
+      "version": "11.3.2",
+      "model": "ICRU90 CSDA range"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "track length",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 7,
+      "title": "Track length of e- in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "track length, nm",
+      "xValues": [
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "yValues": [
+        2580.0227776249417,
+        8676.574325666865,
+        43541.734627682796,
+        144072.23535663082,
+        451751.44553972286,
+        1778269.4391379284,
+        4401609.224503159
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "projected range",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        1.2e-05,
+        1.9999999999999998e-05,
+        4.9999999999999996e-05,
+        9.999999999999999e-05,
+        0.00019999999999999998,
+        0.0005,
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 16,
+      "title": "Projected range of e- in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "projected range, nm",
+      "xValues": [
+        1.2e-05,
+        1.9999999999999998e-05,
+        4.9999999999999996e-05,
+        9.999999999999999e-05,
+        0.00019999999999999998,
+        0.0005,
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "yValues": [
+        0.409765,
+        0.4433554,
+        0.8674721,
+        1.394842,
+        2.658014,
+        9.401341,
+        26.32286,
+        81.81843,
+        387.4745,
+        1333.968,
+        4554.759,
+        21856.5,
+        75413.03,
+        223672.6,
+        798273.8,
+        1967797.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.08408565868496246,
+        0.04407772339402297,
+        0.07479096569508914,
+        0.08491901371674662,
+        0.12457492425855614,
+        0.27276380909387704,
+        0.6409731269113393,
+        1.7104943275955056,
+        7.378953560566702,
+        24.291544973286694,
+        75.33392876934005,
+        386.374357757991,
+        1187.523172712179,
+        3804.346516288967,
+        14784.682126082049,
+        33926.87535043568
+      ],
+      "yStatErrorsMinus": [
+        0.08408565868496246,
+        0.04407772339402297,
+        0.07479096569508914,
+        0.08491901371674662,
+        0.12457492425855614,
+        0.27276380909387704,
+        0.6409731269113393,
+        1.7104943275955056,
+        7.378953560566702,
+        24.291544973286694,
+        75.33392876934005,
+        386.374357757991,
+        1187.523172712179,
+        3804.346516288967,
+        14784.682126082049,
+        33926.87535043568
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.3.2",
+      "model": "dna_opt2"
+    },
+    "testName": "dna-range",
+    "metadata": {
+      "observableName": "penetration",
+      "reaction": "reaction name",
+      "targetName": "water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        1.2e-05,
+        1.9999999999999998e-05,
+        4.9999999999999996e-05,
+        9.999999999999999e-05,
+        0.00019999999999999998,
+        0.0005,
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": [
+        {
+          "names": "tracking cut",
+          "values": "10 eV"
+        }
+      ]
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 16,
+      "title": "Penetration of e- in liquid water",
+      "xAxisName": "E, MeV",
+      "yAxisName": "penetration, nm",
+      "xValues": [
+        1.2e-05,
+        1.9999999999999998e-05,
+        4.9999999999999996e-05,
+        9.999999999999999e-05,
+        0.00019999999999999998,
+        0.0005,
+        0.001,
+        0.002,
+        0.005,
+        0.01,
+        0.02,
+        0.05,
+        0.1,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "yValues": [
+        4.027541,
+        1.842326,
+        3.170075,
+        4.056323,
+        5.859886,
+        15.33679,
+        41.60114,
+        120.5445,
+        545.9948,
+        1874.356,
+        6220.5,
+        30808.97,
+        102093.0,
+        312019.9,
+        1171086.0,
+        2830607.0
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.07584375117371239,
+        0.04673852706284185,
+        0.06916742408645851,
+        0.0716876645132829,
+        0.09268670607007781,
+        0.2126950167823614,
+        0.49410746554013935,
+        1.3428495079631597,
+        5.636393105041557,
+        17.694704897298795,
+        55.545691705847,
+        251.34782122758892,
+        822.3920475919012,
+        2410.0306231788013,
+        9186.672747279616,
+        22068.96974261395
+      ],
+      "yStatErrorsMinus": [
+        0.07584375117371239,
+        0.04673852706284185,
+        0.06916742408645851,
+        0.0716876645132829,
+        0.09268670607007781,
+        0.2126950167823614,
+        0.49410746554013935,
+        1.3428495079631597,
+        5.636393105041557,
+        17.694704897298795,
+        55.545691705847,
+        251.34782122758892,
+        822.3920475919012,
+        2410.0306231788013,
+        9186.672747279616,
+        22068.96974261395
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  }
+]
