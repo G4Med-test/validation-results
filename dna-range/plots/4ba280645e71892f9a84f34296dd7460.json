@@ -1,0 +1,60 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "ICRU",
+    "version": "11.3.2",
+    "model": "ICRU90 CSDA range"
+  },
+  "testName": "dna-range",
+  "metadata": {
+    "observableName": "track length",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "alpha",
+    "beamEnergies": [
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "tracking cut",
+        "values": "10 eV"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 5,
+    "title": "Track length of alpha in liquid water",
+    "xAxisName": "E, MeV",
+    "yAxisName": "track length, nm",
+    "xValues": [
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "yValues": [
+      4146.8312708124595,
+      6389.240014478714,
+      11770.951360944842,
+      38525.01026139354,
+      114789.18932939725
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [],
+    "yStatErrorsMinus": [],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
