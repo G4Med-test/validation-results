@@ -1,0 +1,85 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "ICRU",
+    "version": "11.3.2",
+    "model": "ICRU90"
+  },
+  "testName": "dna-spower",
+  "metadata": {
+    "observableName": "stopping power",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "proton",
+    "beamEnergies": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      50.0
+    ],
+    "secondaryParticle": "None",
+    "parameters": []
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 15,
+    "title": "Stopping power of proton in liquid water",
+    "xAxisName": "E, MeV",
+    "yAxisName": "S, keV/um",
+    "xValues": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      50.0
+    ],
+    "yValues": [
+      13.37,
+      18.91,
+      29.900000000000002,
+      42.29,
+      56.73,
+      77.4,
+      81.45,
+      65.85000000000001,
+      40.650000000000006,
+      25.74,
+      15.690000000000001,
+      7.8420000000000005,
+      4.532,
+      2.5890000000000004,
+      1.2380000000000002
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [],
+    "yStatErrorsMinus": [],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
