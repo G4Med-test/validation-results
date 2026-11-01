@@ -1,0 +1,13 @@
+{
+  "test_repo": {
+    "url": "https://github.com/G4Med-test/fanoCavity",
+    "sha": "2071b58e52d54628e8faf2f0a2c2db6ecb7f1dc8"
+  },
+  "container_repo": {
+    "url": "https://github.com/G4Med-test/geant4-alma9",
+    "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
+    "geant4_commit": "2ee379e6843e55b9c6bbb835d2a2b03cc998fef0"
+  },
+  "image": "oras://ghcr.io/g4med-test/fanocavity:2071b58e52d54628e8faf2f0a2c2db6ecb7f1dc8-v11.4.3",
+  "geant4_version": "11.4.3"
+}

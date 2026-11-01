@@ -1,0 +1,660 @@
+[
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.2
+      ],
+      "yValues": [
+        1.01853
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00611
+      ],
+      "yStatErrorsMinus": [
+        0.00611
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.6
+      ],
+      "yValues": [
+        1.05159
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.0062
+      ],
+      "yStatErrorsMinus": [
+        0.0062
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.01
+      ],
+      "yValues": [
+        0.99246
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00604
+      ],
+      "yStatErrorsMinus": [
+        0.00604
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.5
+      ],
+      "yValues": [
+        1.05462
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.0063
+      ],
+      "yStatErrorsMinus": [
+        0.0063
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.07
+      ],
+      "yValues": [
+        0.99788
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00604
+      ],
+      "yStatErrorsMinus": [
+        0.00604
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.9
+      ],
+      "yValues": [
+        1.04654
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00656
+      ],
+      "yStatErrorsMinus": [
+        0.00656
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.3
+      ],
+      "yValues": [
+        1.02652
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.0061
+      ],
+      "yStatErrorsMinus": [
+        0.0061
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.7
+      ],
+      "yValues": [
+        1.05621
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00616
+      ],
+      "yStatErrorsMinus": [
+        0.00616
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        1.0
+      ],
+      "yValues": [
+        1.02874
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.0066
+      ],
+      "yStatErrorsMinus": [
+        0.0066
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.8
+      ],
+      "yValues": [
+        1.05015
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00645
+      ],
+      "yStatErrorsMinus": [
+        0.00645
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.4
+      ],
+      "yValues": [
+        1.04202
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00634
+      ],
+      "yStatErrorsMinus": [
+        0.00634
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.03
+      ],
+      "yValues": [
+        0.9853
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00598
+      ],
+      "yStatErrorsMinus": [
+        0.00598
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.1
+      ],
+      "yValues": [
+        0.99575
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00582
+      ],
+      "yStatErrorsMinus": [
+        0.00582
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "emstandard_opt0"
+    },
+    "testName": "fanoCavity",
+    "metadata": {
+      "observableName": "dose ratio (sim/theor)",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "gamma",
+      "beamEnergies": [
+        1.25
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "dose ratio (sim/theor)",
+      "xAxisName": "dRoverRange",
+      "yAxisName": "dose ratio (sim/theory)",
+      "xValues": [
+        0.05
+      ],
+      "yValues": [
+        1.00118
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [
+        0.00604
+      ],
+      "yStatErrorsMinus": [
+        0.00604
+      ],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  }
+]
