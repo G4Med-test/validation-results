@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "ICRU",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "ICRU90"
   },
   "testName": "dna-spower",
@@ -12,7 +12,7 @@
     "observableName": "stopping power",
     "reaction": "reaction name",
     "targetName": "water",
-    "beamParticle": "e-",
+    "beamParticle": "alpha",
     "beamEnergies": [
       0.001,
       0.002,
@@ -23,15 +23,21 @@
       0.1,
       0.2,
       0.5,
-      1.0
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      50.0,
+      100.0
     ],
     "secondaryParticle": "None",
     "parameters": []
   },
   "plotType": "SCATTER2D",
   "chart": {
-    "nPoints": 10,
-    "title": "Stopping power of e- in liquid water",
+    "nPoints": 16,
+    "title": "Stopping power of alpha in liquid water",
     "xAxisName": "E, MeV",
     "yAxisName": "S, keV/um",
     "xValues": [
@@ -44,19 +50,31 @@
       0.1,
       0.2,
       0.5,
-      1.0
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0,
+      50.0,
+      100.0
     ],
     "yValues": [
-      11.806314996670269,
-      7.435494939448434,
-      3.806364187310291,
-      2.2385422065784764,
-      1.308416615372677,
-      0.6563958692431566,
-      0.4093066113542778,
-      0.27792042642648823,
-      0.20251975810632358,
-      0.18448585630478742
+      9.891,
+      14.31,
+      23.3,
+      33.7,
+      48.71000000000001,
+      79.05000000000001,
+      113.10000000000001,
+      158.20000000000002,
+      217.8,
+      219.0,
+      159.9,
+      87.47000000000001,
+      52.900000000000006,
+      31.180000000000003,
+      15.06,
+      8.593000000000002
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],
