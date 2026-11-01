@@ -53,6 +53,8 @@ for the schema itself.
   labels (`org.opencontainers.image.revision`, `org.g4med.geant4.commit`),
   not re-derived or guessed.
 - `image`: the exact oras:// reference run for this result.
+- `runner`: present only for results of a run outside GitHub Actions
+  (`local-pipeline:<user>@<host>`, see below); CI results have no `runner`.
 
 If a field is missing (`null`), the pipeline couldn't determine it — e.g. a
 local/manual run outside GitHub Actions, or an image built before these
@@ -69,5 +71,16 @@ competing one; the workflow also serializes same-test runs so two of them
 never race to merge conflicting content.
 
 
+Results of a run on a workstation or a batch farm arrive through a pull request
+too: ci-workflows'
+[`scripts/local-pipeline.sh publish`](https://github.com/G4Med-test/ci-workflows#running-the-pipeline-outside-github-actions)
+writes the same layout on the branch `results/<test-name>-local-<user>` and opens
+a pull request, which is **not** merged automatically: a maintainer reviews it and
+merges it with squash. The script publishes only results the CI could have
+produced (the image the CI built, an unchanged checkout of a commit of the test's
+default branch), and their `provenance.json` has `runner`. If the CI publishes the
+same test meanwhile, the pull request conflicts: publish again to rebase it on the
+latest results.
+
 Nothing here is meant to be edited by hand — changes should only ever arrive
-through that PR flow.
+through these PR flows.
