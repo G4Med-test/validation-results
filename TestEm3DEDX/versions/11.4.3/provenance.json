@@ -1,0 +1,13 @@
+{
+  "test_repo": {
+    "url": "https://github.com/G4Med-test/TestEm3DEDX",
+    "sha": "40e0db52f3610a7e9c1798a4df41320cf604c07f"
+  },
+  "container_repo": {
+    "url": "https://github.com/G4Med-test/geant4-alma9",
+    "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
+    "geant4_commit": "2ee379e6843e55b9c6bbb835d2a2b03cc998fef0"
+  },
+  "image": "oras://ghcr.io/g4med-test/testem3dedx:40e0db52f3610a7e9c1798a4df41320cf604c07f-v11.4.3",
+  "geant4_version": "11.4.3"
+}
