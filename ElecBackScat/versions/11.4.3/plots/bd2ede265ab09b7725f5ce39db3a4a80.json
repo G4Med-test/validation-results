@@ -4,14 +4,14 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "emstandard_opt0"
   },
   "testName": "ElecBackScat",
   "metadata": {
     "observableName": "Backscattered electron number coefficient",
     "reaction": "reaction name",
-    "targetName": "Mo",
+    "targetName": "Al",
     "beamParticle": "e-",
     "beamEnergies": [
       1.033,
@@ -46,33 +46,33 @@
       0.032
     ],
     "yValues": [
-      0.31158,
-      0.35198,
-      0.36344,
-      0.37618,
-      0.3741,
-      0.37266,
-      0.37306
+      0.08872,
+      0.10948,
+      0.1235,
+      0.12448,
+      0.12434,
+      0.1243,
+      0.13054
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],
     "yStatErrorsPlus": [
-      0.00207161,
-      0.00213602,
-      0.00215124,
-      0.00216642,
-      0.00216402,
-      0.00216233,
-      0.0021628
+      0.0012716,
+      0.00139638,
+      0.00147138,
+      0.00147638,
+      0.00147567,
+      0.00147546,
+      0.00150665
     ],
     "yStatErrorsMinus": [
-      0.00207161,
-      0.00213602,
-      0.00215124,
-      0.00216642,
-      0.00216402,
-      0.00216233,
-      0.0021628
+      0.0012716,
+      0.00139638,
+      0.00147138,
+      0.00147638,
+      0.00147567,
+      0.00147546,
+      0.00150665
     ],
     "xSysErrorsPlus": [],
     "xSysErrorsMinus": [],
