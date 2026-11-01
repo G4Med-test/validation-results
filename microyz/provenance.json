@@ -1,13 +1,13 @@
 {
   "test_repo": {
     "url": "https://github.com/G4Med-test/microyz",
-    "sha": "f3096498d943806b17cf1ee8b12ba563b61b230c"
+    "sha": "c9ac3ee409f702b987c9c1cde9f167b13553b02c"
   },
   "container_repo": {
     "url": "https://github.com/G4Med-test/geant4-alma9",
     "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
-    "geant4_commit": "62f62ecae238a7c304c52af4affbe70795475590"
+    "geant4_commit": "2ee379e6843e55b9c6bbb835d2a2b03cc998fef0"
   },
-  "image": "oras://ghcr.io/g4med-test/microyz:f3096498d943806b17cf1ee8b12ba563b61b230c",
-  "geant4_version": "11.3.2"
+  "image": "oras://ghcr.io/g4med-test/microyz:c9ac3ee409f702b987c9c1cde9f167b13553b02c-v11.4.3",
+  "geant4_version": "11.4.3"
 }
