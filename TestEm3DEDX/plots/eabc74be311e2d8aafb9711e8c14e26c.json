@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.4.3",
+    "version": "11.5.0",
     "model": "emstandard_opt0"
   },
   "testName": "TestEm3DEDX",
@@ -47,12 +47,12 @@
     "yStatErrorsPlus": [
       0.007245690501167937,
       0.012560862066206793,
-      0.023682316642431284
+      0.023682316642431304
     ],
     "yStatErrorsMinus": [
       0.007245690501167937,
       0.012560862066206793,
-      0.023682316642431284
+      0.023682316642431304
     ],
     "xSysErrorsPlus": [],
     "xSysErrorsMinus": [],
