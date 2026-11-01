@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "dna_opt2"
   },
   "testName": "microyz",
@@ -14,7 +14,7 @@
     "targetName": "Water",
     "beamParticle": "e-",
     "beamEnergies": [
-      100.0
+      1000.0
     ],
     "secondaryParticle": "None",
     "parameters": []
@@ -26,10 +26,10 @@
     "xAxisName": "E (eV)",
     "yAxisName": "y (keV/um)",
     "xValues": [
-      100.0
+      1000.0
     ],
     "yValues": [
-      6.4247776457957215
+      10.269834185253929
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],

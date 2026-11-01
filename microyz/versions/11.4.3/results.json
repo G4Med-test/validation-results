@@ -1,0 +1,174 @@
+[
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "dna_opt2"
+    },
+    "testName": "microyz",
+    "metadata": {
+      "observableName": "microdosimetry y",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        10000.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "microdosimetry y",
+      "xAxisName": "E (eV)",
+      "yAxisName": "y (keV/um)",
+      "xValues": [
+        10000.0
+      ],
+      "yValues": [
+        6.376866555105719
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "dna_opt2"
+    },
+    "testName": "microyz",
+    "metadata": {
+      "observableName": "microdosimetry y",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        1000.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "microdosimetry y",
+      "xAxisName": "E (eV)",
+      "yAxisName": "y (keV/um)",
+      "xValues": [
+        1000.0
+      ],
+      "yValues": [
+        10.269834185253929
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "dna_opt2"
+    },
+    "testName": "microyz",
+    "metadata": {
+      "observableName": "microdosimetry y",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        5000.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "microdosimetry y",
+      "xAxisName": "E (eV)",
+      "yAxisName": "y (keV/um)",
+      "xValues": [
+        5000.0
+      ],
+      "yValues": [
+        7.090857597591901
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.4.3",
+      "model": "dna_opt2"
+    },
+    "testName": "microyz",
+    "metadata": {
+      "observableName": "microdosimetry y",
+      "reaction": "reaction name",
+      "targetName": "Water",
+      "beamParticle": "e-",
+      "beamEnergies": [
+        100.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "SCATTER2D",
+    "chart": {
+      "nPoints": 1,
+      "title": "microdosimetry y",
+      "xAxisName": "E (eV)",
+      "yAxisName": "y (keV/um)",
+      "xValues": [
+        100.0
+      ],
+      "yValues": [
+        6.424777645795819
+      ],
+      "xStatErrorsPlus": [],
+      "xStatErrorsMinus": [],
+      "yStatErrorsPlus": [],
+      "yStatErrorsMinus": [],
+      "xSysErrorsPlus": [],
+      "xSysErrorsMinus": [],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": []
+    }
+  }
+]

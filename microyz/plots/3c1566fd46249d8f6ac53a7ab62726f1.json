@@ -1,0 +1,43 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.4.3",
+    "model": "dna_opt2"
+  },
+  "testName": "microyz",
+  "metadata": {
+    "observableName": "microdosimetry y",
+    "reaction": "reaction name",
+    "targetName": "Water",
+    "beamParticle": "e-",
+    "beamEnergies": [
+      100.0
+    ],
+    "secondaryParticle": "None",
+    "parameters": []
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 1,
+    "title": "microdosimetry y",
+    "xAxisName": "E (eV)",
+    "yAxisName": "y (keV/um)",
+    "xValues": [
+      100.0
+    ],
+    "yValues": [
+      6.424777645795819
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [],
+    "yStatErrorsMinus": [],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
