@@ -1,0 +1,54 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "NIST",
+    "version": "11.4.3",
+    "model": "ESTAR"
+  },
+  "testName": "TestEm3DEDX",
+  "metadata": {
+    "observableName": "dE/dX",
+    "reaction": "reaction name",
+    "targetName": "WATER",
+    "beamParticle": "e-",
+    "beamEnergies": [
+      3.0,
+      10.0,
+      30.0
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "thickness_cm",
+        "values": 0.15
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 3,
+    "title": "dE/dX",
+    "xAxisName": "E, MeV",
+    "yAxisName": "dE/dX, MeV cm2/g",
+    "xValues": [
+      3.0,
+      10.0,
+      30.0
+    ],
+    "yValues": [
+      1.889,
+      2.149,
+      2.738
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [],
+    "yStatErrorsMinus": [],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
