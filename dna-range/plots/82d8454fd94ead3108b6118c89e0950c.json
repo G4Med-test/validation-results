@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "ICRU",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "ICRU90 CSDA range"
   },
   "testName": "dna-range",

@@ -5,7 +5,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -117,7 +117,7 @@
     },
     "mctool": {
       "name": "ICRU",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "ICRU90 CSDA range"
     },
     "testName": "dna-range",
@@ -183,7 +183,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -295,7 +295,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -407,7 +407,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -519,7 +519,7 @@
     },
     "mctool": {
       "name": "ICRU",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "ICRU90 CSDA range"
     },
     "testName": "dna-range",
@@ -579,7 +579,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -691,7 +691,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -803,7 +803,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -878,7 +878,7 @@
         144437.8,
         445601.0,
         1728523.0,
-        4194896.0
+        4211868.0
       ],
       "xStatErrorsPlus": [],
       "xStatErrorsMinus": [],
@@ -898,7 +898,7 @@
         759.3090354602663,
         2183.6200808604276,
         7763.407467101672,
-        17092.05699448987
+        15951.1799470873
       ],
       "yStatErrorsMinus": [
         0.5559401130849436,
@@ -916,7 +916,7 @@
         759.3090354602663,
         2183.6200808604276,
         7763.407467101672,
-        17092.05699448987
+        15951.1799470873
       ],
       "xSysErrorsPlus": [],
       "xSysErrorsMinus": [],
@@ -930,7 +930,7 @@
     },
     "mctool": {
       "name": "ICRU",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "ICRU90 CSDA range"
     },
     "testName": "dna-range",
@@ -996,7 +996,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -1071,7 +1071,7 @@
         75413.03,
         223672.6,
         798273.8,
-        1967797.0
+        1991803.0
       ],
       "xStatErrorsPlus": [],
       "xStatErrorsMinus": [],
@@ -1091,7 +1091,7 @@
         1187.523172712179,
         3804.346516288967,
         14784.682126082049,
-        33926.87535043568
+        33256.7570914694
       ],
       "yStatErrorsMinus": [
         0.08408565868496246,
@@ -1109,7 +1109,7 @@
         1187.523172712179,
         3804.346516288967,
         14784.682126082049,
-        33926.87535043568
+        33256.7570914694
       ],
       "xSysErrorsPlus": [],
       "xSysErrorsMinus": [],
@@ -1123,7 +1123,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.3.2",
+      "version": "11.4.3",
       "model": "dna_opt2"
     },
     "testName": "dna-range",
@@ -1198,7 +1198,7 @@
         102093.0,
         312019.9,
         1171086.0,
-        2830607.0
+        2838517.0
       ],
       "xStatErrorsPlus": [],
       "xStatErrorsMinus": [],
@@ -1218,7 +1218,7 @@
         822.3920475919012,
         2410.0306231788013,
         9186.672747279616,
-        22068.96974261395
+        21657.399305143033
       ],
       "yStatErrorsMinus": [
         0.07584375117371239,
@@ -1236,7 +1236,7 @@
         822.3920475919012,
         2410.0306231788013,
         9186.672747279616,
-        22068.96974261395
+        21657.399305143033
       ],
       "xSysErrorsPlus": [],
       "xSysErrorsMinus": [],
