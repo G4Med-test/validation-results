@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "QMD"
   },
   "testName": "CCCStest",
@@ -16,7 +16,7 @@
     "beamEnergies": [
       3600.0
     ],
-    "secondaryParticle": "None",
+    "secondaryParticle": "H",
     "parameters": []
   },
   "plotType": "TH1",
@@ -40,30 +40,30 @@
       4.5
     ],
     "binContent": [
-      293.725,
-      75.116,
-      62.36,
-      191.33
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "yStatErrorsPlus": [
-      10.201490916428513,
-      10.317976121569723,
-      9.40112372393467,
-      16.467064525108114
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "yStatErrorsMinus": [
-      10.201490916428513,
-      10.317976121569723,
-      9.40112372393467,
-      16.467064525108114
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "ySysErrorsPlus": [],
     "ySysErrorsMinus": [],
     "binLabel": [
-      "Total * 0.25",
-      "Li",
-      "Be",
-      "B"
+      "H4",
+      "H5",
+      "H6",
+      "H7"
     ]
   }
 }
