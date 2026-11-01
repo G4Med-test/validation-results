@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "emstandard_opt0"
   },
   "testName": "fanoCavity",
@@ -26,18 +26,18 @@
     "xAxisName": "dRoverRange",
     "yAxisName": "dose ratio (sim/theory)",
     "xValues": [
-      0.5
+      0.2
     ],
     "yValues": [
-      1.05462
+      1.01853
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],
     "yStatErrorsPlus": [
-      0.0063
+      0.00611
     ],
     "yStatErrorsMinus": [
-      0.0063
+      0.00611
     ],
     "xSysErrorsPlus": [],
     "xSysErrorsMinus": [],
