@@ -1,0 +1,99 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.5.0",
+    "model": "QMD"
+  },
+  "testName": "CCCStest",
+  "metadata": {
+    "observableName": "fragments production cross section",
+    "reaction": "reaction name",
+    "targetName": "WATER",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      3600.0
+    ],
+    "secondaryParticle": "Li",
+    "parameters": []
+  },
+  "plotType": "TH1",
+  "histogram": {
+    "nBins": [
+      9
+    ],
+    "title": "fragments production cross section",
+    "xAxisName": "fragment type",
+    "yAxisName": "cross section, mb",
+    "binEdgeLow": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5,
+      7.5,
+      8.5
+    ],
+    "binEdgeHigh": [
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5,
+      7.5,
+      8.5,
+      9.5
+    ],
+    "binContent": [
+      0.0,
+      0.0,
+      33.634,
+      32.289,
+      5.3815,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yStatErrorsPlus": [
+      0.0,
+      0.0,
+      6.726800000000001,
+      6.590964525393836,
+      2.69075,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yStatErrorsMinus": [
+      0.0,
+      0.0,
+      6.726800000000001,
+      6.590964525393836,
+      2.69075,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": [],
+    "binLabel": [
+      "Li4",
+      "Li5",
+      "Li6",
+      "Li7",
+      "Li8",
+      "Li9",
+      "Li10",
+      "Li11",
+      "Li13"
+    ]
+  }
+}

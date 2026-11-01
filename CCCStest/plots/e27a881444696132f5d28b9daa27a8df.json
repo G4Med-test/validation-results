@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.4.3",
+    "version": "11.5.0",
     "model": "QMD"
   },
   "testName": "CCCStest",
@@ -16,13 +16,13 @@
     "beamEnergies": [
       3600.0
     ],
-    "secondaryParticle": "N",
+    "secondaryParticle": "C",
     "parameters": []
   },
   "plotType": "TH1",
   "histogram": {
     "nBins": [
-      4
+      6
     ],
     "title": "fragments production cross section",
     "xAxisName": "fragment type",
@@ -31,39 +31,51 @@
       0.5,
       1.5,
       2.5,
-      3.5
+      3.5,
+      4.5,
+      5.5
     ],
     "binEdgeHigh": [
       1.5,
       2.5,
       3.5,
-      4.5
+      4.5,
+      5.5,
+      6.5
     ],
     "binContent": [
       0.0,
-      0.0,
-      0.0,
+      2.6907,
+      12.108,
+      104.94,
+      146.65,
       0.0
     ],
     "yStatErrorsPlus": [
       0.0,
-      0.0,
-      0.0,
+      1.9026122161386436,
+      4.036,
+      11.88211519631339,
+      14.046522472768185,
       0.0
     ],
     "yStatErrorsMinus": [
       0.0,
-      0.0,
-      0.0,
+      1.9026122161386436,
+      4.036,
+      11.88211519631339,
+      14.046522472768185,
       0.0
     ],
     "ySysErrorsPlus": [],
     "ySysErrorsMinus": [],
     "binLabel": [
-      "N10",
-      "N11",
-      "N12",
-      "N13"
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
     ]
   }
 }
