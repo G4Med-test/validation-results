@@ -4,23 +4,23 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "emstandard_opt0"
   },
   "testName": "ElecBackScat",
   "metadata": {
     "observableName": "Backscattered electron number coefficient",
     "reaction": "reaction name",
-    "targetName": "C",
+    "targetName": "U",
     "beamParticle": "e-",
     "beamEnergies": [
-      1.0,
-      0.5,
-      0.3,
-      0.1,
-      0.075,
-      0.05,
-      0.025
+      1.033,
+      0.521,
+      0.314,
+      0.109,
+      0.084,
+      0.058,
+      0.032
     ],
     "secondaryParticle": "None",
     "parameters": [
@@ -37,42 +37,42 @@
     "xAxisName": "E, MeV",
     "yAxisName": "Backscattered electron number coefficient",
     "xValues": [
-      1.0,
-      0.5,
-      0.3,
-      0.1,
-      0.075,
-      0.05,
-      0.025
+      1.033,
+      0.521,
+      0.314,
+      0.109,
+      0.084,
+      0.058,
+      0.032
     ],
     "yValues": [
-      0.02392,
-      0.03166,
-      0.03212,
-      0.03358,
-      0.03556,
-      0.03924,
-      0.048
+      0.49724,
+      0.538,
+      0.5498,
+      0.5499,
+      0.54598,
+      0.53032,
+      0.51116
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],
     "yStatErrorsPlus": [
-      0.000683342,
-      0.000783041,
-      0.000788521,
-      0.000805635,
-      0.000828197,
-      0.000868334,
-      0.000955992
+      0.00223729,
+      0.0022305,
+      0.00222513,
+      0.0022249,
+      0.00222659,
+      0.00223195,
+      0.00223551
     ],
     "yStatErrorsMinus": [
-      0.000683342,
-      0.000783041,
-      0.000788521,
-      0.000805635,
-      0.000828197,
-      0.000868334,
-      0.000955992
+      0.00223729,
+      0.0022305,
+      0.00222513,
+      0.0022249,
+      0.00222659,
+      0.00223195,
+      0.00223551
     ],
     "xSysErrorsPlus": [],
     "xSysErrorsMinus": [],
