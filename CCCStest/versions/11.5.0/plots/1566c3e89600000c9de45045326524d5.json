@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.4.3",
+    "version": "11.5.0",
     "model": "QMD"
   },
   "testName": "CCCStest",
@@ -16,13 +16,13 @@
     "beamEnergies": [
       3600.0
     ],
-    "secondaryParticle": "Be",
+    "secondaryParticle": "He",
     "parameters": []
   },
   "plotType": "TH1",
   "histogram": {
     "nBins": [
-      8
+      7
     ],
     "title": "fragments production cross section",
     "xAxisName": "fragment type",
@@ -34,8 +34,7 @@
       3.5,
       4.5,
       5.5,
-      6.5,
-      7.5
+      6.5
     ],
     "binEdgeHigh": [
       1.5,
@@ -44,50 +43,45 @@
       4.5,
       5.5,
       6.5,
-      7.5,
-      8.5
+      7.5
     ],
     "binContent": [
+      83.413,
       0.0,
-      10.74,
-      18.796,
+      10.763,
       0.0,
-      6.7128,
-      16.111,
+      0.0,
       0.0,
       0.0
     ],
     "yStatErrorsPlus": [
+      10.59346159346689,
       0.0,
-      3.7971634149717604,
-      5.023442302985929,
+      3.805295142955406,
       0.0,
-      3.0020554238721178,
-      4.65084509345703,
+      0.0,
       0.0,
       0.0
     ],
     "yStatErrorsMinus": [
+      10.59346159346689,
       0.0,
-      3.7971634149717604,
-      5.023442302985929,
+      3.805295142955406,
       0.0,
-      3.0020554238721178,
-      4.65084509345703,
+      0.0,
       0.0,
       0.0
     ],
     "ySysErrorsPlus": [],
     "ySysErrorsMinus": [],
     "binLabel": [
-      "Be5",
-      "Be6",
-      "Be7",
-      "Be8",
-      "Be9",
-      "Be10",
-      "Be11",
-      "Be12"
+      "He3",
+      "He5",
+      "He6",
+      "He7",
+      "He8",
+      "He9",
+      "He10"
     ]
   }
 }
