@@ -1,0 +1,74 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.4.3",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "fragment yield by Z",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "thickness",
+        "values": "59 mm"
+      }
+    ]
+  },
+  "plotType": "TH1",
+  "histogram": {
+    "nBins": [
+      5
+    ],
+    "title": "fragment yield by Z",
+    "xAxisName": "Z",
+    "yAxisName": "N/N_{0}",
+    "binEdgeLow": [
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5
+    ],
+    "binEdgeHigh": [
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "binContent": [
+      0.16505,
+      0.26363,
+      0.02498,
+      0.00884,
+      0.02847
+    ],
+    "yStatErrorsPlus": [
+      0.0012847178678604884,
+      0.0016236686854158393,
+      0.0004997999599839919,
+      0.00029732137494637014,
+      0.0005335728628781641
+    ],
+    "yStatErrorsMinus": [
+      0.0012847178678604884,
+      0.0016236686854158393,
+      0.0004997999599839919,
+      0.00029732137494637014,
+      0.0005335728628781641
+    ],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": [],
+    "binLabel": []
+  }
+}

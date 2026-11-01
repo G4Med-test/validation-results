@@ -1,0 +1,108 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.4.3",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "energy distribution (scaled to exp. yield)",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "Z",
+        "values": "4"
+      },
+      {
+        "names": "thickness",
+        "values": "159 mm"
+      },
+      {
+        "names": "angle",
+        "values": "4.0"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 13,
+    "title": "energy distribution",
+    "xAxisName": "Energy, MeV",
+    "yAxisName": "(N/N_{0})(#Omega*MeV)^{-1}",
+    "xValues": [
+      1143.0,
+      1305.0,
+      1404.0,
+      1503.0,
+      1629.0,
+      1764.0,
+      1926.0,
+      2106.0,
+      2322.0,
+      2574.0,
+      2880.0,
+      3249.0,
+      3717.0
+    ],
+    "yValues": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.611861559288972e-05,
+      0.00012183646806351058,
+      0.0005261120211833411,
+      0.0005787232233016753,
+      0.00030616325361766043,
+      6.173047715217868e-05,
+      4.978264286466024e-06,
+      0.0
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.805930779644486e-05,
+      3.852807411510578e-05,
+      7.440347556850021e-05,
+      7.178178140283451e-05,
+      4.781466706952541e-05,
+      1.9520890884986926e-05,
+      4.978264286466024e-06,
+      0.0
+    ],
+    "yStatErrorsMinus": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      2.805930779644486e-05,
+      3.852807411510578e-05,
+      7.440347556850021e-05,
+      7.178178140283451e-05,
+      4.781466706952541e-05,
+      1.9520890884986926e-05,
+      4.978264286466024e-06,
+      0.0
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}

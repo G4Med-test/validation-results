@@ -1,0 +1,100 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.4.3",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "angular distribution (scaled to exp. yield)",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "Z",
+        "values": "2"
+      },
+      {
+        "names": "thickness",
+        "values": "258 mm"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 12,
+    "title": "angular distribution",
+    "xAxisName": "angle, deg",
+    "yAxisName": "(N/N_{0})#Omega^{-1}",
+    "xValues": [
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      4.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "yValues": [
+      23.080323043064325,
+      24.93321483476957,
+      26.871917472225654,
+      25.327141091452727,
+      24.007243647203456,
+      21.96168771329306,
+      19.70006325300459,
+      17.08770102256077,
+      10.276366589560183,
+      5.062639746838221,
+      2.5194262883790026,
+      1.311221398072867
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.5171270030031725,
+      0.7601024693668095,
+      1.2639486769802242,
+      0.7660834650673161,
+      0.5274088639895653,
+      0.4118862383946545,
+      0.33785329751082166,
+      0.2814530577578116,
+      0.17259629497453352,
+      0.09896352660122044,
+      0.06050302795179078,
+      0.0390757059391072
+    ],
+    "yStatErrorsMinus": [
+      0.5171270030031725,
+      0.7601024693668095,
+      1.2639486769802242,
+      0.7660834650673161,
+      0.5274088639895653,
+      0.4118862383946545,
+      0.33785329751082166,
+      0.2814530577578116,
+      0.17259629497453352,
+      0.09896352660122044,
+      0.06050302795179078,
+      0.0390757059391072
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
