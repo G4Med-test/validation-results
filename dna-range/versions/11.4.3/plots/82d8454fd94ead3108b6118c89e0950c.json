@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "ICRU",
-    "version": "11.3.2",
+    "version": "11.4.3",
     "model": "ICRU90 CSDA range"
   },
   "testName": "dna-range",
@@ -12,15 +12,15 @@
     "observableName": "track length",
     "reaction": "reaction name",
     "targetName": "water",
-    "beamParticle": "proton",
+    "beamParticle": "e-",
     "beamEnergies": [
+      0.01,
+      0.02,
+      0.05,
       0.1,
       0.2,
       0.5,
-      1.0,
-      2.0,
-      5.0,
-      10.0
+      1.0
     ],
     "secondaryParticle": "None",
     "parameters": [
@@ -33,26 +33,26 @@
   "plotType": "SCATTER2D",
   "chart": {
     "nPoints": 7,
-    "title": "Track length of proton in liquid water",
+    "title": "Track length of e- in liquid water",
     "xAxisName": "E, MeV",
     "yAxisName": "track length, nm",
     "xValues": [
+      0.01,
+      0.02,
+      0.05,
       0.1,
       0.2,
       0.5,
-      1.0,
-      2.0,
-      5.0,
-      10.0
+      1.0
     ],
     "yValues": [
-      1729.8867113063272,
-      3098.650939695366,
-      9093.06586243876,
-      25038.039806262874,
-      76640.50047198692,
-      366180.2820129436,
-      1241065.7160683996
+      2580.0227776249417,
+      8676.574325666865,
+      43541.734627682796,
+      144072.23535663082,
+      451751.44553972286,
+      1778269.4391379284,
+      4401609.224503159
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],

@@ -1,0 +1,112 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.4.3",
+    "model": "dna_opt2"
+  },
+  "testName": "dna-range",
+  "metadata": {
+    "observableName": "penetration",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "proton",
+    "beamEnergies": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "tracking cut",
+        "values": "10 eV"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 13,
+    "title": "Penetration of proton in liquid water",
+    "xAxisName": "E, MeV",
+    "yAxisName": "penetration, nm",
+    "xValues": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "yValues": [
+      51.80163,
+      91.14257,
+      183.9135,
+      303.4993,
+      482.4938,
+      880.4408,
+      1470.371,
+      2817.921,
+      8692.86,
+      24184.56,
+      74740.15,
+      357689.2,
+      1212109.0
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.5124018742597455,
+      0.7989440749695188,
+      1.339419069157409,
+      1.884154600036844,
+      2.3314363228962742,
+      3.0903892858920057,
+      3.5337662282966598,
+      4.60613253019168,
+      7.48015909480273,
+      17.484862476325343,
+      40.68678143624781,
+      367.12177977474994,
+      1214.0853727345534
+    ],
+    "yStatErrorsMinus": [
+      0.5124018742597455,
+      0.7989440749695188,
+      1.339419069157409,
+      1.884154600036844,
+      2.3314363228962742,
+      3.0903892858920057,
+      3.5337662282966598,
+      4.60613253019168,
+      7.48015909480273,
+      17.484862476325343,
+      40.68678143624781,
+      367.12177977474994,
+      1214.0853727345534
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
