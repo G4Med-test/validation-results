@@ -1,13 +1,13 @@
 {
   "test_repo": {
     "url": "https://github.com/G4Med-test/ElectronScattering",
-    "sha": "45a98c880ea2f6fdec1004ff8320a798b78bf4b5"
+    "sha": "959125936d788e0affa83fab7bbc053b01e7c15d"
   },
   "container_repo": {
     "url": "https://github.com/G4Med-test/geant4-alma9",
     "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
-    "geant4_commit": "62f62ecae238a7c304c52af4affbe70795475590"
+    "geant4_commit": "2ee379e6843e55b9c6bbb835d2a2b03cc998fef0"
   },
-  "image": "oras://ghcr.io/g4med-test/electronscattering:45a98c880ea2f6fdec1004ff8320a798b78bf4b5",
-  "geant4_version": "11.3.2"
+  "image": "oras://ghcr.io/g4med-test/electronscattering:959125936d788e0affa83fab7bbc053b01e7c15d-v11.4.3",
+  "geant4_version": "11.4.3"
 }
