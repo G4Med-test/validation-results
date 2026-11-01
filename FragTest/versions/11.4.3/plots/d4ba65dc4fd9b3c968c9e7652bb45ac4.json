@@ -1,0 +1,96 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.4.3",
+    "model": "QGSP_BIC_EMY"
+  },
+  "testName": "FragTest",
+  "metadata": {
+    "observableName": "angular distribution (scaled to exp. yield)",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "C12",
+    "beamEnergies": [
+      400
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "Z",
+        "values": "4"
+      },
+      {
+        "names": "thickness",
+        "values": "288 mm"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 11,
+    "title": "angular distribution",
+    "xAxisName": "angle, deg",
+    "yAxisName": "(N/N_{0})#Omega^{-1}",
+    "xValues": [
+      -1.0,
+      -0.5,
+      0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0,
+      6.0
+    ],
+    "yValues": [
+      1.942728553411213,
+      1.9021826098385863,
+      1.6613783477238757,
+      1.740294728150196,
+      1.922491797646513,
+      1.7809475298618056,
+      1.4269086065031733,
+      1.2145290474375918,
+      0.850289057530421,
+      0.43035872869960845,
+      0.13853053127356874
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.19827890269136533,
+      0.27746185021154823,
+      0.41534458693096893,
+      0.2653924580002737,
+      0.19724349664465946,
+      0.15501158568921666,
+      0.12016738241529969,
+      0.09916588146702016,
+      0.07574976983337506,
+      0.04667895802153045,
+      0.021634834205420422
+    ],
+    "yStatErrorsMinus": [
+      0.19827890269136533,
+      0.27746185021154823,
+      0.41534458693096893,
+      0.2653924580002737,
+      0.19724349664465946,
+      0.15501158568921666,
+      0.12016738241529969,
+      0.09916588146702016,
+      0.07574976983337506,
+      0.04667895802153045,
+      0.021634834205420422
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
