@@ -4,7 +4,7 @@
   },
   "mctool": {
     "name": "GEANT4",
-    "version": "11.4.3",
+    "version": "11.5.0",
     "model": "emstandardGS"
   },
   "testName": "ElectronScattering",
