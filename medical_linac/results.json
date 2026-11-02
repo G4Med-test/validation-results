@@ -5,7 +5,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.5.0",
+      "version": "11.5.0.beta",
       "model": "standard_opt4"
     },
     "testName": "medical_linac",
@@ -273,7 +273,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.5.0",
+      "version": "11.5.0.beta",
       "model": "standard_opt4"
     },
     "testName": "medical_linac",

@@ -5,7 +5,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.5.0",
+      "version": "11.5.0.beta",
       "model": "emstandard_opt0"
     },
     "testName": "TestEm3DEDX",
@@ -67,7 +67,7 @@
     },
     "mctool": {
       "name": "NIST",
-      "version": "11.5.0",
+      "version": "11.5.0.beta",
       "model": "ESTAR"
     },
     "testName": "TestEm3DEDX",
