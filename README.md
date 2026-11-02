@@ -13,7 +13,7 @@ commit's message, not in parallel per-run folders.
   plots/<md5>.json     # same plots, one object per file (legacy import format)
   provenance.json      # where this run came from (see below)
   versions/
-    <geant4-version>/  # e.g. 11.4.3: the latest results with that Geant4 version
+    <geant4-version>/  # e.g. 11.4.3, 11.5.0.beta: the latest results with that Geant4 version
       results.json
       plots/<md5>.json
       provenance.json
@@ -53,6 +53,10 @@ for the schema itself.
   labels (`org.opencontainers.image.revision`, `org.g4med.geant4.commit`),
   not re-derived or guessed.
 - `image`: the exact oras:// reference run for this result.
+- `geant4_version`: the Geant4 tag of the image without its `v` (`11.5.0.beta`
+  for `v11.5.0.beta`), also in each plot's `mctool.version` and the name of
+  `versions/<geant4-version>/`. `geant4-config --version` omits the suffix of
+  pre-releases, so it is not used: a beta would overwrite its release.
 - `runner`: present only for results of a run outside GitHub Actions
   (`local-pipeline:<user>@<host>`, see below); CI results have no `runner`.
 

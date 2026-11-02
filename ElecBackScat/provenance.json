@@ -9,5 +9,5 @@
     "geant4_commit": "f3d5293d384757b8a228a099898b2b87cfa4023c"
   },
   "image": "oras://ghcr.io/g4med-test/elecbackscat:86d1cb3036ffcadead5dc685b4445e2ff2d0d854-v11.5.0.beta",
-  "geant4_version": "11.5.0"
+  "geant4_version": "11.5.0.beta"
 }
