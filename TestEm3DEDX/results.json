@@ -5,7 +5,7 @@
     },
     "mctool": {
       "name": "GEANT4",
-      "version": "11.5.0.beta",
+      "version": "11.2.2",
       "model": "emstandard_opt0"
     },
     "testName": "TestEm3DEDX",
@@ -40,20 +40,20 @@
       ],
       "yValues": [
         1.9322276069129367,
-        2.152234449137617,
+        2.1522344491376133,
         2.7453991688751374
       ],
       "xStatErrorsPlus": [],
       "xStatErrorsMinus": [],
       "yStatErrorsPlus": [
         0.007245690501167937,
-        0.012560862066206793,
-        0.023682316642431304
+        0.012560862066206822,
+        0.023682316642431284
       ],
       "yStatErrorsMinus": [
         0.007245690501167937,
-        0.012560862066206793,
-        0.023682316642431304
+        0.012560862066206822,
+        0.023682316642431284
       ],
       "xSysErrorsPlus": [],
       "xSysErrorsMinus": [],
@@ -67,7 +67,7 @@
     },
     "mctool": {
       "name": "NIST",
-      "version": "11.5.0.beta",
+      "version": "11.2.2",
       "model": "ESTAR"
     },
     "testName": "TestEm3DEDX",
