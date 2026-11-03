@@ -1,0 +1,656 @@
+[
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "None",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        4
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5
+      ],
+      "binContent": [
+        294.025,
+        66.281,
+        69.101,
+        188.97
+      ],
+      "yStatErrorsPlus": [
+        10.18125308684865,
+        9.66807750147195,
+        9.871571428571428,
+        16.324521638210964
+      ],
+      "yStatErrorsMinus": [
+        10.18125308684865,
+        9.66807750147195,
+        9.871571428571428,
+        16.324521638210964
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "Total * 0.25",
+        "Li",
+        "Be",
+        "B"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "B",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        7
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5
+      ],
+      "binContent": [
+        0.0,
+        2.8204,
+        0.0,
+        25.384,
+        139.61,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        0.0,
+        1.9943239656585385,
+        0.0,
+        5.983066177879773,
+        14.031332938833861,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        0.0,
+        1.9943239656585385,
+        0.0,
+        5.983066177879773,
+        14.031332938833861,
+        0.0,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B11",
+        "B12",
+        "B13"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "Be",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        8
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5
+      ],
+      "binContent": [
+        0.0,
+        5.6409,
+        23.974,
+        0.0,
+        14.102,
+        22.564,
+        2.8204,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        0.0,
+        2.82045,
+        5.814549074621047,
+        0.0,
+        4.459443956369449,
+        5.641,
+        1.9943239656585385,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        0.0,
+        2.82045,
+        5.814549074621047,
+        0.0,
+        4.459443956369449,
+        5.641,
+        1.9943239656585385,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "Be5",
+        "Be6",
+        "Be7",
+        "Be8",
+        "Be9",
+        "Be10",
+        "Be11",
+        "Be12"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "C",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        6
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "binContent": [
+        0.0,
+        1.4102,
+        16.923,
+        77.562,
+        138.2,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        0.0,
+        1.4102,
+        4.885249302748018,
+        10.458457946474796,
+        13.960308165711552,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        0.0,
+        1.4102,
+        4.885249302748018,
+        10.458457946474796,
+        13.960308165711552,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "H",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        4
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5
+      ],
+      "binContent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "H4",
+        "H5",
+        "H6",
+        "H7"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "He",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        7
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5
+      ],
+      "binContent": [
+        100.13,
+        0.0,
+        5.6409,
+        0.0,
+        1.4102,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        11.883244743495053,
+        0.0,
+        2.82045,
+        0.0,
+        1.4102,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        11.883244743495053,
+        0.0,
+        2.82045,
+        0.0,
+        1.4102,
+        0.0,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "He3",
+        "He5",
+        "He6",
+        "He7",
+        "He8",
+        "He9",
+        "He10"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "Li",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        9
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5,
+        5.5,
+        6.5,
+        7.5,
+        8.5,
+        9.5
+      ],
+      "binContent": [
+        0.0,
+        0.0,
+        25.384,
+        29.615,
+        5.6409,
+        5.6409,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        0.0,
+        0.0,
+        5.983066177879773,
+        6.462522819338913,
+        2.82045,
+        2.82045,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        0.0,
+        0.0,
+        5.983066177879773,
+        6.462522819338913,
+        2.82045,
+        2.82045,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "Li4",
+        "Li5",
+        "Li6",
+        "Li7",
+        "Li8",
+        "Li9",
+        "Li10",
+        "Li11",
+        "Li13"
+      ]
+    }
+  },
+  {
+    "article": {
+      "inspireId": -1
+    },
+    "mctool": {
+      "name": "GEANT4",
+      "version": "11.2.2",
+      "model": "QMD"
+    },
+    "testName": "CCCStest",
+    "metadata": {
+      "observableName": "fragments production cross section",
+      "reaction": "reaction name",
+      "targetName": "WATER",
+      "beamParticle": "C12",
+      "beamEnergies": [
+        3600.0
+      ],
+      "secondaryParticle": "N",
+      "parameters": []
+    },
+    "plotType": "TH1",
+    "histogram": {
+      "nBins": [
+        4
+      ],
+      "title": "fragments production cross section",
+      "xAxisName": "fragment type",
+      "yAxisName": "cross section, mb",
+      "binEdgeLow": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "binEdgeHigh": [
+        1.5,
+        2.5,
+        3.5,
+        4.5
+      ],
+      "binContent": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsPlus": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yStatErrorsMinus": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ySysErrorsPlus": [],
+      "ySysErrorsMinus": [],
+      "binLabel": [
+        "N10",
+        "N11",
+        "N12",
+        "N13"
+      ]
+    }
+  }
+]
