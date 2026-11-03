@@ -3,9 +3,9 @@
     "inspireId": -1
   },
   "mctool": {
-    "name": "GEANT4",
-    "version": "11.5.0.beta",
-    "model": "emstandard_opt0"
+    "name": "NIST",
+    "version": "11.2.2",
+    "model": "ESTAR"
   },
   "testName": "TestEm3DEDX",
   "metadata": {
@@ -38,22 +38,14 @@
       30.0
     ],
     "yValues": [
-      1.9322276069129367,
-      2.152234449137617,
-      2.7453991688751374
+      1.889,
+      2.149,
+      2.738
     ],
     "xStatErrorsPlus": [],
     "xStatErrorsMinus": [],
-    "yStatErrorsPlus": [
-      0.007245690501167937,
-      0.012560862066206793,
-      0.023682316642431304
-    ],
-    "yStatErrorsMinus": [
-      0.007245690501167937,
-      0.012560862066206793,
-      0.023682316642431304
-    ],
+    "yStatErrorsPlus": [],
+    "yStatErrorsMinus": [],
     "xSysErrorsPlus": [],
     "xSysErrorsMinus": [],
     "ySysErrorsPlus": [],
