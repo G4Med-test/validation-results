@@ -1,0 +1,112 @@
+{
+  "article": {
+    "inspireId": -1
+  },
+  "mctool": {
+    "name": "GEANT4",
+    "version": "11.2.2",
+    "model": "dna_opt2"
+  },
+  "testName": "dna-range",
+  "metadata": {
+    "observableName": "projected range",
+    "reaction": "reaction name",
+    "targetName": "water",
+    "beamParticle": "alpha",
+    "beamEnergies": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "secondaryParticle": "None",
+    "parameters": [
+      {
+        "names": "tracking cut",
+        "values": "10 eV"
+      }
+    ]
+  },
+  "plotType": "SCATTER2D",
+  "chart": {
+    "nPoints": 13,
+    "title": "Projected range of alpha in liquid water",
+    "xAxisName": "E, MeV",
+    "yAxisName": "projected range, nm",
+    "xValues": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "yValues": [
+      12.8594,
+      25.88246,
+      65.82587,
+      140.7515,
+      284.6772,
+      637.7898,
+      1109.136,
+      1784.248,
+      3285.533,
+      5450.278,
+      10687.85,
+      37653.79,
+      117096.3
+    ],
+    "xStatErrorsPlus": [],
+    "xStatErrorsMinus": [],
+    "yStatErrorsPlus": [
+      0.2953446851818414,
+      0.5420166045472224,
+      1.1267998521705618,
+      1.8331470613783283,
+      2.9073095369843234,
+      4.9004046024139685,
+      6.0003333163950145,
+      6.4283823827530675,
+      7.804109142865699,
+      8.22349673071255,
+      10.121979610827617,
+      26.94364628780689,
+      65.80153272172466
+    ],
+    "yStatErrorsMinus": [
+      0.2953446851818414,
+      0.5420166045472224,
+      1.1267998521705618,
+      1.8331470613783283,
+      2.9073095369843234,
+      4.9004046024139685,
+      6.0003333163950145,
+      6.4283823827530675,
+      7.804109142865699,
+      8.22349673071255,
+      10.121979610827617,
+      26.94364628780689,
+      65.80153272172466
+    ],
+    "xSysErrorsPlus": [],
+    "xSysErrorsMinus": [],
+    "ySysErrorsPlus": [],
+    "ySysErrorsMinus": []
+  }
+}
