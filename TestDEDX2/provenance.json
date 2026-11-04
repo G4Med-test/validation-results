@@ -6,8 +6,8 @@
   "container_repo": {
     "url": "https://github.com/G4Med-test/geant4-alma9",
     "sha": "e3cd75afdc760e1c8ef3fd1b65826c1460a9dae1",
-    "geant4_commit": "f840b5da3a70c2c7be836fdb72a781eab12e0af6"
+    "geant4_commit": "ee63be61ec11917d266554c008fdbbc093cfbae2"
   },
-  "image": "oras://ghcr.io/g4med-test/testdedx2:393a3801625d3a65b0437de0e0a58706f43718d3-v11.2.2",
-  "geant4_version": "11.2.2"
+  "image": "oras://ghcr.io/g4med-test/testdedx2:393a3801625d3a65b0437de0e0a58706f43718d3-v11.1.3",
+  "geant4_version": "11.1.3"
 }
